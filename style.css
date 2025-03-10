@@ -1,6 +1,42 @@
-section {
-    padding:20px;
-    width: 500px;
-    height: 500px;
-    border: 1px solid;
+*{
+    margin:0px;
 }
+
+img{
+    width: 100vw;
+}
+ul, nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+li{
+    margin-right: 20px;
+    list-style-type: none;
+}
+.navSuperior{
+    height:10vh;
+    width: 100vw;
+    background-color:darkcyan;
+    display: flex;
+    
+
+}
+#welcome,#projects{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (width <= 550px){
+    ul,nav{
+        background-color: aliceblue;
+        flex-direction: column;
+
+    }
+}
+
+
